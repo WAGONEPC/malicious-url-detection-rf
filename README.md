@@ -1,4 +1,19 @@
 <p align="center">
+  <img
+    src="https://github.com/WAGONEPC.png"
+    width="100"
+    height="100"
+    style="border-radius: 50%;"
+    alt="Sayyid Abdullah Azzam"
+  />
+</p>
+
+<p align="center">
+  <strong>Sayyid Abdullah Azzam</strong><br>
+  <a href="https://github.com/WAGONEPC">@WAGONEPC</a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Jupyter-Notebooks-orange.svg?logo=jupyter&logoColor=white" alt="Jupyter">
   <img src="https://img.shields.io/badge/scikit--learn-F7931E.svg?logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
@@ -6,55 +21,32 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
 </p>
 
-<h1 align="center">Deteksi Malicious URL Menggunakan Algoritma Random Forest Classifier</h1>
-
-<h2 align="center">PENELITI</h2>
+<h1 align="center">
+  Deteksi Malicious URL Menggunakan<br>
+  Algoritma Random Forest Classifier
+</h1>
 
 <p align="center">
-  Penelitian ini dilakukan secara mandiri sebagai bagian dari pemenuhan tugas<br>
-  <strong>Keamanan Berbasis Sistem Cerdas (Semester 7)</strong> - Program Studi Teknik Informatika, Universitas Darma Persada.
+  Sistem <strong>Machine Learning</strong> untuk mendeteksi dan
+  mengklasifikasikan <strong>Malicious URL</strong> dan
+  <strong>Phishing URL</strong> menggunakan algoritma
+  <strong>Random Forest Classifier</strong>.
 </p>
 
 <p align="center">
-  <img 
-    src="https://github.com/WAGONEPC.png"
-    width="130"
-    height="130"
-    style="border-radius:50%;"
-    alt="Sayyid Abdullah Azzam"
-  />
+  Proses klasifikasi menggunakan <strong>lexical feature extraction</strong>
+  pada URL dan teknik <strong>SMOTE (Synthetic Minority Over-sampling Technique)</strong>
+  untuk menangani ketidakseimbangan kelas pada dataset.
 </p>
 
 <p align="center">
-  <strong>Sayyid Abdullah Azzam</strong><br>
-  <sub>Lead Researcher</sub><br>
-  <a href="https://github.com/WAGONEPC">@WAGONEPC</a>
-</p>
-
-<h3 align="center">Peran Peneliti</h3>
-
-<p align="center">
-  <strong>Project Lead & Data Scraping</strong><br>
-  <sub>Bertanggung jawab atas seluruh proses penelitian, mulai dari perancangan metodologi hingga pengolahan dan persiapan dataset.</sub>
-</p>
-
-<h4 align="center">Kontribusi</h4>
-
-<div align="center">
-
-| No. | Kontribusi |
-|:---:|:---|
-| 1 | Perancangan metodologi penelitian |
-| 2 | Pengumpulan dataset dari platform Kaggle |
-| 3 | Data cleaning dan preprocessing |
-| 4 | Persiapan dataset untuk proses analisis dan klasifikasi |
-
-</div>
-
-<br>
-
-<p align="center">
-  <em>Repository ini disusun untuk memenuhi tugas <strong>Ujian Tengah Semester (UTS)</strong> mata kuliah <strong>Keamanan Berbasis Sistem Cerdas (Semester 7)</strong> pada Program Studi Teknik Informatika, <strong>Universitas Darma Persada (UNSADA)</strong>.</em>
+  <em>
+    Repository ini disusun untuk memenuhi tugas
+    <strong>Ujian Tengah Semester (UTS)</strong> mata kuliah
+    <strong>Keamanan Berbasis Sistem Cerdas</strong>
+    pada Semester 7, Program Studi Teknik Informatika,
+    <strong>Universitas Darma Persada (UNSADA)</strong>.
+  </em>
 </p>
 
 ---
