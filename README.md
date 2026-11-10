@@ -69,19 +69,6 @@ Berikut adalah visualisasi alur komprehensif mulai dari akuisisi dataset hingga 
 
 ![Alur Deteksi URL Berbahaya](Alur%20Deteksi%20URL%20Berbahaya.png)
 
-```mermaid
-flowchart TD
-    A["1. Akuisisi Data (Kaggle / Lokal)<br/>malicious_phish.csv (20.000 sampel terukur)"] --> B["2. Exploratory Data Analysis (EDA)<br/>Distribusi Kategori URL (Bar Chart) & Identifikasi Imbalance"]
-    B --> C["3. Data Preprocessing & Feature Engineering<br/>• Cleaning: dropna & hapus duplikat<br/>• Binary Label: Benign (0) vs Bahaya (1)<br/>• Ekstraksi 8 Fitur Leksikal URL"]
-    C -->|Simpan dataset/extracted_features.csv| D["4. Data Splitting (80% Training : 20% Testing)<br/>train_test_split(stratify=y) - Wajib sebelum SMOTE"]
-    D -->|80% Data Latih| E["5. Penanganan Imbalance (SMOTE)<br/>Oversampling kelas minoritas hingga rasio 50:50"]
-    D -->|20% Data Uji (Tetap Murni/Asli)| H["7. Evaluasi Model (Testing)<br/>Uji model terhadap 20% Data Testing<br/>Confusion Matrix, Accuracy, Precision, Recall, F1-Score"]
-    E --> F["6. Training Model<br/>Random Forest (100 Trees)<br/>Fit ke X_train_smote & y_train_smote"]
-    F -->|Simpan Model| G["Model Terlatih<br/>(model/random_forest_model.joblib)"]
-    G --> H
-    G --> I["8. Inference / Deployment (Uji URL Baru)<br/>Input URL Baru ➔ Ekstrak 8 Fitur ➔ Prediksi RF ➔ AMAN / BLOKIR"]
-```
-
 ---
 
 ## Urutan Penjelasan Per Tahap (Alur Koding)
